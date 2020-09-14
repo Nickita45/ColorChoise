@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 
 public class PlayerPrefsSafe : MonoBehaviour
 {
-     private const int salt = 54534645;
+     private const int salt = 11111;
 
     public static void SetInt(string key, int value)
     {
